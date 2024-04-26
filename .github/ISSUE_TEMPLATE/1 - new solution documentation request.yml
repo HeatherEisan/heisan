@@ -2,7 +2,7 @@
 description: Request documentation set up in XMetal and published to dev.
 labels: ["Type: Doc"]
 #title: ""
-assignees: ["mind9511"]
+#assignees: ["mind9511"]
 #projects: ["WebGIS/216"]
 body:
   - type: markdown
