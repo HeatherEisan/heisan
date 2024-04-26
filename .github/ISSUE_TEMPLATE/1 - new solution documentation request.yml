@@ -1,0 +1,105 @@
+﻿name: New solution documentation request
+description: Request documentation set up in XMetal and published to dev.
+labels: ["Type: Doc"]
+#title: ""
+assignees: ["mind9511"]
+#projects: ["WebGIS/216"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to request solution documention setup. If this doesn’t look right, [choose a different type](https://devtopia.esri.com/WebGIS/solutions-enablement/issues/new/choose).
+  - type: input
+    id: duedate
+    attributes:
+      label: Date needed
+      description: Completion dates cannot be guaranteed, but all effort will be made to accommodate the requested date.
+    validations:
+      required: true
+  - type: textarea
+    id: properties
+    attributes:
+      label: Topic properties
+      description: Please provide the full solution name, the full name of the person responsible for authoring the doc, and the full name of the person responsible for reviewing the doc.
+      placeholder: |
+      Solution name:
+      Author name:
+      Reviewer name:	
+    validations:
+      required: true
+  - type: input
+    id: solution
+    attributes:
+      label: Solution ID
+      description: This information will be used to create a short link for the Deploy the solution section. If not yet available, leave this question blank.
+    validations:
+      required: false
+  - type: checkboxes
+    id: topics
+    attributes:
+      label: Topics
+      description: |
+        Which topics do you need? Check all that apply.
+      options: |
+      - label: Introduction
+      - label: Configure
+      - label: Use
+    validations:
+      required: true
+  - type: checkboxes
+    id: platform
+    attributes:
+      label: Requirements: Platform
+      description: Check all that apply.
+      options: |
+      - label: ArcGIS Online
+      - label: ArcGIS Enterprise
+    validations:
+      required: true
+  - type: textarea
+    id: additional-products
+    attributes:
+      label: Requirements: Additional products
+      description: If applicable, include software versions and user types. One product per line, please. For example:
+      placeholder: |
+       - ArcGIS Pro 3.2, Creator
+       - ArcGIS Hub Premium 
+    validations:
+      required: true
+  - type: checkboxes
+    id: reuse-location
+    attributes:
+      label: Information products (variables)
+      description: This information will be used both to create variables and partially complete the information products table.
+      options: |
+      - label: Defense
+      - label: Infrastructure
+      - label: Planning and Natural Resources
+      - label: Public Safety
+      - label: Other (please specify below)
+    validations:
+      required: true
+  - type: input
+    id: other
+    attributes:
+      label: Other REUSE location
+      description: In which shared (REUSE) doc should your variables reside?
+    validations:
+      required: false
+  - type: textarea
+    id: information-products
+    attributes:
+      label: Information products
+      description: This information will be used to create variables and complete the information products table. Provide variable name, product type, and minimum user type. For example:
+      placeholder: |
+      - Broadband Coverage Dashboard, ArcGIS Dashboards, Creator
+      - Broadband Infrastructure Inventory, ArcGIS Experience Builder, Professional  
+    validations:
+      required: true
+  - type: textarea
+    id: addtional-information
+    attributes:
+      label: Additional information
+      description: Use this section to add any additional information or to clarify your previous responses.
+    validations:
+      required: false
