@@ -38,9 +38,8 @@ body:
     id: topics
     attributes:
       label: Topics
-      description: |
-        Which topics do you need? Check all that apply.
-      options: |
+      description: Which topics do you need? Check all that apply.
+      options:
       - label: Introduction
       - label: Configure
       - label: Use
@@ -49,9 +48,9 @@ body:
   - type: checkboxes
     id: platform
     attributes:
-      label: Requirements: Platform
+      label: Requirements - Platform
       description: Check all that apply.
-      options: |
+      options:
       - label: ArcGIS Online
       - label: ArcGIS Enterprise
     validations:
@@ -59,7 +58,7 @@ body:
   - type: textarea
     id: additional-products
     attributes:
-      label: Requirements: Additional products
+      label: Requirements - Additional products
       description: If applicable, include software versions and user types. One product per line, please. For example:
       placeholder: |
        - ArcGIS Pro 3.2, Creator
@@ -71,7 +70,7 @@ body:
     attributes:
       label: Information products (variables)
       description: This information will be used both to create variables and partially complete the information products table.
-      options: |
+      options:
       - label: Defense
       - label: Infrastructure
       - label: Planning and Natural Resources
