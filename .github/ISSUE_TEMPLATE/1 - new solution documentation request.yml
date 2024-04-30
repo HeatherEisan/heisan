@@ -93,7 +93,7 @@ body:
       description: |
         This information will be used to create variables and complete the information products table. Provide variable name, product type, and minimum user type. For example:
       placeholder: |
-      - test
+        - test
     validations:
       required: true
   - type: textarea
