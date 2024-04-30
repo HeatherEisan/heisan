@@ -21,7 +21,7 @@ body:
     attributes:
       label: Topic properties
       description: Please provide the full solution name, the full name of the person responsible for authoring the doc, and the full name of the person responsible for reviewing the doc.
-      placeholder: |
+      placeholder:
       Solution name:
       Author name:
       Reviewer name:
