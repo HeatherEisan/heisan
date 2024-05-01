@@ -63,7 +63,7 @@ body:
       label: Requirements - Additional products
       description: | 
         If applicable, include software versions and user types. One product per line, please. For example:
-      placeholder: |
+      Value: |
        - ArcGIS Pro 3.2, Creator
        - ArcGIS Hub Premium
     validations:
@@ -94,8 +94,9 @@ body:
       label: Information products
       description: |
         This information will be used to create variables and complete the information products table. Provide variable name, product type, and minimum user type. For example:
-      placeholder: |
-        - test
+      value: |
+        - Broadband Coverage Dashboard, ArcGIS Dashboards, Creator
+        - Broadband Infrastructure Inventory, ArcGIS Experience Builder, Professional
     validations:
       required: true
   - type: textarea
