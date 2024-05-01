@@ -8,12 +8,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this template to request solution documention setup. If this doesn’t look right, [choose a different type](https://devtopia.esri.com/WebGIS/solutions-enablement/issues/new/choose).
+        Use this template to request solution documentation setup. If this doesn’t look right, [choose a different type](https://devtopia.esri.com/WebGIS/solutions-enablement/issues/new/choose).
   - type: input
     id: duedate
     attributes:
       label: Date needed
       description: Completion dates cannot be guaranteed, but all effort will be made to accommodate the requested date.
+      placeholder: |
+        dd/mm/yyyy
     validations:
       required: true
   - type: textarea
@@ -21,10 +23,10 @@ body:
     attributes:
       label: Topic properties
       description: Please provide the full solution name, the full name of the person responsible for authoring the doc, and the full name of the person responsible for reviewing the doc.
-      placeholder: |
-      Solution name:
-      Author name:
-      Reviewer name:	
+      value: |
+        Solution name:
+        Author name:
+        Reviewer name:
     validations:
       required: true
   - type: input
@@ -59,17 +61,18 @@ body:
     id: additional-products
     attributes:
       label: Requirements - Additional products
-      description: If applicable, include software versions and user types. One product per line, please. For example:
-      placeholder: |
+      description: | 
+        If applicable, include software versions and user types. One product per line, please. For example:
+      Value: |
        - ArcGIS Pro 3.2, Creator
-       - ArcGIS Hub Premium 
+       - ArcGIS Hub Premium
     validations:
       required: true
   - type: checkboxes
     id: reuse-location
     attributes:
       label: Information products (variables)
-      description: This information will be used both to create variables and partially complete the information products table.
+      description: This information will be used both to create variables and partially complete the information products table.
       options:
       - label: Defense
       - label: Infrastructure
@@ -89,13 +92,15 @@ body:
     id: information-products
     attributes:
       label: Information products
-      description: This information will be used to create variables and complete the information products table. Provide variable name, product type, and minimum user type. For example:
-      placeholder: |
-      - test
+      description: |
+        This information will be used to create variables and complete the information products table. Provide variable name, product type, and minimum user type. For example:
+      value: |
+        - Broadband Coverage Dashboard, ArcGIS Dashboards, Creator
+        - Broadband Infrastructure Inventory, ArcGIS Experience Builder, Professional
     validations:
       required: true
   - type: textarea
-    id: addtional-information
+    id: additional-information
     attributes:
       label: Additional information
       description: Use this section to add any additional information or to clarify your previous responses.
