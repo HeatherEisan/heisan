@@ -63,7 +63,7 @@ body:
       label: Requirements - Additional products
       description: | 
         If applicable, include software versions and user types. One product per line, please. For example:
-      Value: |
+      value: |
        - ArcGIS Pro 3.2, Creator
        - ArcGIS Hub Premium
     validations:
