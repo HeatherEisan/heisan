@@ -74,7 +74,7 @@ body:
       description: | 
         If applicable, include software versions. Click multiple products if applicable.
       multiple: true
-      options: |
+      options:
         - ArcGIS 3D Analyst
         - ArcGIS Dashboard
         - ArcGIS Data Reviewer
