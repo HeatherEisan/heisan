@@ -18,15 +18,25 @@ body:
         dd/mm/yyyy
     validations:
       required: true
-  - type: textarea
-    id: properties
+  - type: input
+    id: solution-name
     attributes:
       label: Topic properties
-      description: Please provide the full solution name, the full name of the person responsible for authoring the doc, and the full name of the person responsible for reviewing the doc.
-      value: |
-        Solution name:
-        Author name:
-        Reviewer name:
+      description: Please provide the full solution name.
+    validations:
+      required: true
+  - type: input
+    id: author-name
+    attributes:
+      label: Topic properties
+      description: Please provide the full name of the person responsible for authoring the doc.
+    validations:
+      required: true
+  - type: input
+    id: reviewer-name
+    attributes:
+      label: Topic properties
+      description: Please provide the full name of the person responsible for reviewing the doc.
     validations:
       required: true
   - type: input
@@ -57,17 +67,41 @@ body:
       - label: ArcGIS Enterprise
     validations:
       required: true
-  - type: textarea
+  - type: dropdown
     id: additional-products
     attributes:
       label: Requirements - Additional products
       description: | 
-        If applicable, include software versions and user types. One product per line, please. For example:
-      Value: |
-       - ArcGIS Pro 3.2, Creator
-       - ArcGIS Hub Premium
+        If applicable, include software versions. Click multiple products if applicable.
+      multiple :true
+      options: |
+        - ArcGIS 3D Analyst
+        - ArcGIS Dashboard
+        - ArcGIS Data Reviewer
+        - ArcGIS Data Pipelines
+        - ArcGIS Experience Builder
+        - ArcGIS Field Maps
+        - ArcGIS Hub
+        - ArcGIS Hub Premium
+        - ArcGIS Instant Apps
+        - ArcGIS Notebooks
+        - ArcGIS Pipeline Referencing
+        - ArcGIS QuickCapture
+        - ArcGIS Spatial Analyst
+        - ArcGIS Survey 123
+        - ArcGIS Survey 123 Connect
+        - ArcGIS Velocity
+        - ArcGIS Workforce
+        - Microsoft Excel
     validations:
       required: true
+  - type: input
+    id: other-products
+    attributes:
+      label: Other additional products
+      description: Product not listed above, add it here.
+    validations:
+      required: false
   - type: checkboxes
     id: reuse-location
     attributes:
@@ -93,9 +127,8 @@ body:
     attributes:
       label: Information products
       description: |
-        This information will be used to create variables and complete the information products table. Provide variable name, product type, and minimum user type. For example:
-      value: |
-        - Broadband Coverage Dashboard, ArcGIS Dashboards, Creator
+        This information will be used to create variables and complete the information products table. Provide variable name, product type, and minimum user type. For example: - Broadband Coverage Dashboard, ArcGIS Dashboards, Creator
+      placeholder: |
         - Broadband Infrastructure Inventory, ArcGIS Experience Builder, Professional
     validations:
       required: true
