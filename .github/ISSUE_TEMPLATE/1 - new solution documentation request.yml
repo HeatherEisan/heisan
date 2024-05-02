@@ -21,21 +21,21 @@ body:
   - type: input
     id: solution-name
     attributes:
-      label: Topic properties
+      label: Solution name
       description: Please provide the full solution name.
     validations:
       required: true
   - type: input
     id: author-name
     attributes:
-      label: Topic properties
+      label: Author name
       description: Please provide the full name of the person responsible for authoring the doc.
     validations:
       required: true
   - type: input
     id: reviewer-name
     attributes:
-      label: Topic properties
+      label: Reviewer name
       description: Please provide the full name of the person responsible for reviewing the doc.
     validations:
       required: true
@@ -60,7 +60,7 @@ body:
   - type: checkboxes
     id: platform
     attributes:
-      label: Requirements - Platform
+      label: Platform requirements
       description: Check all that apply.
       options:
       - label: ArcGIS Online
@@ -70,7 +70,7 @@ body:
   - type: dropdown
     id: additional-products
     attributes:
-      label: Requirements - Additional products
+      label: Product requirements
       description: | 
         If applicable, include software versions. Click multiple products if applicable.
       multiple: true
@@ -98,7 +98,7 @@ body:
   - type: input
     id: other-products
     attributes:
-      label: Other additional products
+      label: Other product requirements
       description: Product not listed above, add it here.
     validations:
       required: false
