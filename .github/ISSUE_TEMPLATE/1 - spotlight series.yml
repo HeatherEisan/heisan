@@ -8,12 +8,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Submit the details about a customer spotlight. [Customer spotlight suggestion form](https://survey123.arcgis.com/share/27f30e12a0d34dce89b6453cd67c2e21).
+        Submit the details about a customer spotlight in the [customer spotlight suggestion form](https://survey123.arcgis.com/share/27f30e12a0d34dce89b6453cd67c2e21). Tip: open the form in a new tab. Once the form is submitted, click <b>Submit new issue</b>.
   - type: checkboxes
     id: topics
     attributes:
-      label: Process
-      description: Which topics do you need? Check all that apply.
+      label: Spotlight series process
+      description: Below is the spotlight series workflow, as each step is complete it will be checked off from the list below.
       options:
       - label: Form recieved
       - label: Account manager contacted
