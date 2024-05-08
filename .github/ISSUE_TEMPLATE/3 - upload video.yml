@@ -1,5 +1,5 @@
 name: Upload solution video
-description: Use this template to add or update a video on Kaltura.
+description: Add or update a video on Kaltura.
 labels: ["Type: Upload video"]
 #title: ""
 #assignees: ["jai10618"]
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Add or update an ArcGIS Solution Enablement Video on Kaltura
+        Add or update an ArcGIS Solution video on Kaltura
   - type: input
     id: solution-name
     attributes:
