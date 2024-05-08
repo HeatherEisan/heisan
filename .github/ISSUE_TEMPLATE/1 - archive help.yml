@@ -18,21 +18,21 @@ body:
       required: true
   - type: input
     id: mature-phase
-    attributes: '|'
+    attributes: ‘|’
       label: Mature Phase Lifecycle
       description: Please provide the release Month \ Year it of the Mature Phase Lifecycle. (Example: November 2023 - October 2025).
     validations:
       required: false
   - type: input
     id: retired-phase
-    attributes: '|'
+    attributes: ‘|’
       label: Retired Lifecycle
       description: Please provide the release Month \ Year of the Retired Lifecycle (2 years after Mature Phase). (Example: November 2025)
     validations:
       required: true
   - type: input
     id: new-solution
-    attributes: '|'
+    attributes: ‘|’
       label: Solution replacement
       description: Please provide the new solution name that is replacing the Capabilities of this solution. (if applicable) (For Example: Park Infrastructure Management has been moved to Mature Lifecycle Phase. Capabilities have been replaced with Parks and Grounds Management.)
     validations:
