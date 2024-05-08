@@ -34,3 +34,10 @@ body:
         mm/yyyy
     validations:
       required: false
+  - type: input
+    id: new-solution
+    attributes:
+      label: Solution replacement name
+      description: Please provide the new solution name that is replacing the capabilities of the mature support or retired solution, if applicable.
+    validations:
+      required: false
