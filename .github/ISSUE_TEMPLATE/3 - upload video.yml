@@ -36,3 +36,13 @@ body:
       - label: Not approved
     validations:
       required: true
+  - type: checkboxes
+    id: solution-image
+    attributes:
+      label: Solution image
+      description: Is the original solution item image in the Solution Development > solution [name] folder in Microsoft Teams?
+      options:
+      - label: Uploaded
+      - label: Not uploaded
+    validations:
+      required: true
