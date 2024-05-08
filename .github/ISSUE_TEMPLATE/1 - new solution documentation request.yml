@@ -105,8 +105,8 @@ body:
   - type: checkboxes
     id: reuse-location
     attributes:
-      label: Information products (variables)
-      description: This information will be used both to create variables and partially complete the information products table.
+      label: REUSE topic
+      description: This information will be used both to create variables.
       options:
       - label: Defense
       - label: Infrastructure
