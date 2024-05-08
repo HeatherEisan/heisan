@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this template to request solution documentation setup. If this doesn’t look right, [choose a different type](https://devtopia.esri.com/WebGIS/solutions-enablement/issues/new/choose).
+        Use this template to request solution documentation setup.
   - type: input
     id: duedate
     attributes:
