@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Submit the details about a customer spotlight in the [customer spotlight suggestion form](https://survey123.arcgis.com/share/27f30e12a0d34dce89b6453cd67c2e21). Tip: open the form in a new tab. Once the form is submitted, click <b>Submit new issue</b>.
+        Open the [customer spotlight suggestion form](https://survey123.arcgis.com/share/27f30e12a0d34dce89b6453cd67c2e21) in a new tab, and complete the form. Once it's been submitted, click <b>Submit new issue</b>.
   - type: checkboxes
     id: topics
     attributes:
