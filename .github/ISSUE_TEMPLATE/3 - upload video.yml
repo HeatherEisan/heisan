@@ -30,7 +30,7 @@ body:
     id: video-approve
     attributes:
       label: Video approval
-      description: Check all that apply.
+      description: Your video must be reviewed and approved by your team lead or Scott prior to upload.
       options:
       - label: Add new video
       - label: Update existing video
