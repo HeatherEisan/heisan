@@ -2,7 +2,7 @@ name: Move solution to archive help
 description: Move an ArcGIS Solution (one or many versions) into Mature Support or Retired Lifecycle.
 labels: ["Type: Doc"]
 #title: ""
-assignees: ["heat5533"]
+#assignees: ["heat5533"]
 #projects: ["WebGIS/216"]
 body:
   - type: markdown
@@ -27,7 +27,7 @@ body:
     id: retired-phase
     attributes: |
       label: Retired Lifecycle
-      description: Please provide the release Month \ Year of the the Retired Lifecycle (2 years after Mature Phase). (Example: November 2025)
+      description: Please provide the release Month \ Year of the Retired Lifecycle (2 years after Mature Phase). (Example: November 2025)
     validations:
       required: true
   - type: input
@@ -41,7 +41,7 @@ body:
     id: publications
     attributes:
       label: Solution product
-      description: Which product is the solution avaliable in?
+      description: Which product is the solution available in?
       options:
       - label: ArcGIS Enterprise 10.9.1
       - label: ArcGIS Enterprise 11
