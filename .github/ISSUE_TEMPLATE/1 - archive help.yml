@@ -22,6 +22,6 @@ body:
       label: Mature Phase Lifecycle
       description: Please provide the release month and year it of the Mature Phase Lifecycle.
       placeholder: |
-      mm/yyyy - mm/yyyy
+        mm/yyyy - mm/yyyy
     validations:
       required: false
