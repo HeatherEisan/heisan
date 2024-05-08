@@ -18,7 +18,7 @@ body:
       required: true
   - type: input
     id: mature-phase
-    attributes: |
+    attributes:
       label: Mature Phase Lifecycle
       description: Please provide the release Month \ Year it of the Mature Phase Lifecycle. (Example: November 2023 - October 2025).
     validations:
