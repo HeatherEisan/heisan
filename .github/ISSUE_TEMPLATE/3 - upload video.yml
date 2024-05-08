@@ -32,7 +32,7 @@ body:
       label: Video approval
       description: Your video must be reviewed and approved by your team lead or Scott prior to upload.
       options:
-      - label: Yes
-      - label: Update
+      - label: Approved
+      - label: Not approved
     validations:
       required: true
