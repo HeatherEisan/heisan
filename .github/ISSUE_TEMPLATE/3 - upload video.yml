@@ -16,31 +16,3 @@ body:
       description: Please provide the full solution name.
     validations:
       required: true
-  - type: checkboxes
-    id: video-update
-    attributes:
-      label: Update or add new video
-      description: Check all that apply.
-      options:
-      - label: Add new video
-      - label: Update existing video
-    validations:
-      required: true
-  - type: checkboxes
-    id: video-approved
-    attributes: |
-      label: Video approval
-      description: Has the video been reviewed and approved by your team lead or Scott?
-      - label: Yes
-      - label: No (video must be reviewed prior to upload)
-    validations:
-      required: true
-  - type: checkboxes
-    id: solution-image
-    attributes: |
-      label: Solution image
-      description: Is the original solution item image in the Solution Development > solution [name] folder in Microsoft Teams?
-      - label: Yes
-      - label: No (image be in this folder before upload)
-    validations:
-      required: true
