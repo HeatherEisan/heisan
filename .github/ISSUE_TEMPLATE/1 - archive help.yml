@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this template to request to move a solution into Mature Support or Retired Lifecycle. If this doesn’t look right, [choose a different type](https://devtopia.esri.com/WebGIS/solutions-enablement/issues/new/choose).
+        Use this template to request to move a solution into Mature Support or Retired Lifecycle. Please create a separate issue to remove Solution gallery items from the [ArcGIS Solutions app](https://devtopia.esri.com/WebGIS/solution-items).
   - type: input
     id: solution-name
     attributes:
@@ -50,6 +50,3 @@ body:
       - label: ArcGIS Online
     validations:
       required: true
-  - type: markdown
-    attributes:
-      description: Please create a separate issue to remove Solution gallery items from the [ArcGIS Solutions app](https://devtopia.esri.com/WebGIS/solution-items).
