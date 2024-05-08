@@ -1,0 +1,32 @@
+name: New spotlight series request
+description: Request spotlight series blog.
+labels: ["Type: Spotlight"]
+#title: ""
+#assignees: ["mind9511"]
+#projects: ["WebGIS/216"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit the details about a customer spotlight. [Customer spotlight suggestion form](https://survey123.arcgis.com/share/27f30e12a0d34dce89b6453cd67c2e21).
+  - type: checkboxes
+    id: topics
+    attributes:
+      label: Process
+      description: Which topics do you need? Check all that apply.
+      options:
+      - label: Form recieved
+      - label: Account manager contacted
+      - label: Solutioneer contact customer
+      - label: Legal forms completed and signed by customer
+      - label: Interview questions written and sent to customer
+      - label: Request image from CreativeLab
+      - label: Blog completed
+      - label: Blog internal review
+      - label: Blog reviewed by Solutioneer
+      - label: Customer reviews and signs off on blog
+      - label: Blog imported into Wordpress
+      - label: Blog published
+      - label: Blog socialized to the team and customer
+    validations:
+      required: false
