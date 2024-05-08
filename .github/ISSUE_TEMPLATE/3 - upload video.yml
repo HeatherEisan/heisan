@@ -16,3 +16,13 @@ body:
       description: Please provide the full solution name.
     validations:
       required: true
+  - type: checkboxes
+    id: video-update
+    attributes:
+      label: Update or add new video
+      description: Check all that apply.
+      options:
+      - label: Add new video
+      - label: Update existing video
+    validations:
+      required: true
