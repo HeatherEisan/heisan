@@ -25,3 +25,12 @@ body:
         mm/yyyy - mm/yyyy
     validations:
       required: false
+  - type: input
+    id: retire-phase
+    attributes:
+      label: Retired Lifecycle
+      description: Please provide the release month and year of the Retired Lifecycle (2 years after Mature Phase).
+      placeholder: |
+        mm/yyyy
+    validations:
+      required: false
