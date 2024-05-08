@@ -41,3 +41,16 @@ body:
       description: Please provide the new solution name that is replacing the capabilities of the mature support or retired solution, if applicable.
     validations:
       required: false
+  - type: checkboxes
+    id: publications
+    attributes:
+      label: Solution product
+      description: Which product is the solution available in?
+      options:
+      - label: ArcGIS Enterprise 10.9.1
+      - label: ArcGIS Enterprise 11
+      - label: ArcGIS Enterprise 11.1
+      - label: ArcGIS Enterprise 11.2
+      - label: ArcGIS Online
+    validations:
+      required: true
