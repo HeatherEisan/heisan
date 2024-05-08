@@ -44,13 +44,13 @@ body:
   - type: checkboxes
     id: publications
     attributes:
-      label: Solution product
-      description: Which product is the solution available in?
+      label: Software product 
+      description: Which software product is the solution moving to a Mature or Retired Phase in?
       options:
+      - label: ArcGIS Online
       - label: ArcGIS Enterprise 10.9.1
       - label: ArcGIS Enterprise 11
       - label: ArcGIS Enterprise 11.1
       - label: ArcGIS Enterprise 11.2
-      - label: ArcGIS Online
     validations:
       required: true
