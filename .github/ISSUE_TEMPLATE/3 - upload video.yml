@@ -27,7 +27,7 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: video-update
+    id: video-approve
     attributes:
       label: Update or add new video
       description: Check all that apply.
