@@ -27,12 +27,12 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: video-approved
+    id: video-update
     attributes:
-      label: Video approval
-      description: Your video must be reviewed and approved by your team lead or Scott prior to upload.
+      label: Update or add new video
+      description: Check all that apply.
       options:
-      - label: Yes
-      - label: No
+      - label: Add new video
+      - label: Update existing video
     validations:
       required: true
