@@ -16,3 +16,10 @@ body:
       description: Please provide the full solution name.
     validations:
       required: true
+  - type: input
+    id: mature-phase
+    attributes: |
+      label: Mature Phase Lifecycle
+      description: Please provide the release Month \ Year it of the Mature Phase Lifecycle. (Example: November 2023 - October 2025).
+    validations:
+      required: false
