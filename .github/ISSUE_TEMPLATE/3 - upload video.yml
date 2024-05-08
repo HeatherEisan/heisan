@@ -33,6 +33,6 @@ body:
       description: Your video must be reviewed and approved by your team lead or Scott prior to upload.
       options:
       - label: Yes
-      - label: No
+      - label: Update
     validations:
       required: true
