@@ -28,7 +28,7 @@ body:
       required: true
   - type: checkboxes
     id: video-approved
-    attributes:
+    attributes: |
       label: Video approval
       description: Has the video been reviewed and approved by your team lead or Scott?
       - label: Yes
@@ -37,7 +37,7 @@ body:
       required: true
   - type: checkboxes
     id: solution-image
-    attributes:
+    attributes: |
       label: Solution image
       description: Is the original solution item image in the Solution Development > solution [name] folder in Microsoft Teams?
       - label: Yes
