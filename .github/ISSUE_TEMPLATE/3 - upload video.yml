@@ -28,9 +28,9 @@ body:
       required: true
   - type: checkboxes
     id: video-approved
-    attributes: '|'
+    attributes:
       label: Video approval
-      description: Has the video been reviewed and approved by your team lead or Scott? The video must be reviewed prior to upload.
+      description: Your video must be reviewed and approved by your team lead or Scott prior to upload.
       - label: Yes
       - label: No
     validations:
