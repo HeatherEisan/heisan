@@ -8,12 +8,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Add or update an ArcGIS Solution video on Kaltura
+        Add or update an ArcGIS Solutions video on Kaltura
   - type: input
     id: solution-name
     attributes:
       label: Solution name
-      description: Please provide the full solution name.
+      description: Provide the full solution name.
     validations:
       required: true
   - type: checkboxes
@@ -30,7 +30,7 @@ body:
     id: video-approve
     attributes:
       label: Video approval
-      description: Your video must be reviewed and approved by your team lead or Scott prior to upload.
+      description: Your video must be reviewed and approved by your team lead or Scott prior to upload. What is the approval status of your video?
       options:
       - label: Approved
       - label: Not approved
@@ -40,7 +40,7 @@ body:
     id: solution-image
     attributes:
       label: Solution image
-      description: Is the original solution item image in the Solution Development > solution [name] folder in Microsoft Teams?
+      description: The original solution item image must be uploaded to the Solution Development > solution [name] folder in Microsoft Teams. What is the upload status of your video?
       options:
       - label: Uploaded
       - label: Not uploaded

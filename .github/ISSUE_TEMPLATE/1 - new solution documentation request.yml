@@ -22,21 +22,21 @@ body:
     id: solution-name
     attributes:
       label: Solution name
-      description: Please provide the full solution name.
+      description: Provide the full solution name.
     validations:
       required: true
   - type: input
     id: author-name
     attributes:
       label: Author name
-      description: Please provide the full name of the person responsible for authoring the doc.
+      description: Provide the full name of the person responsible for authoring the doc.
     validations:
       required: true
   - type: input
     id: reviewer-name
     attributes:
       label: Reviewer name
-      description: Please provide the full name of the person responsible for reviewing the doc.
+      description: Provide the full name of the person responsible for reviewing the doc.
     validations:
       required: true
   - type: input
@@ -72,7 +72,7 @@ body:
     attributes:
       label: Product requirements
       description: | 
-        If applicable, include software versions. Click multiple products if applicable.
+        What products does your solution require? Click all that apply.
       multiple: true
       options:
         - ArcGIS 3D Analyst
@@ -99,20 +99,20 @@ body:
     id: other-products
     attributes:
       label: Other product requirements
-      description: Product not listed above, add it here.
+      description: If the product is not listed in the previous question, add it here.
     validations:
       required: false
   - type: checkboxes
     id: reuse-location
     attributes:
       label: REUSE topic
-      description: This information will be used both to create variables.
+      description: This information will be used to create variables.
       options:
       - label: Defense
       - label: Infrastructure
       - label: Planning and Natural Resources
       - label: Public Safety
-      - label: Other (please specify below)
+      - label: Other (specify below)
     validations:
       required: true
   - type: input

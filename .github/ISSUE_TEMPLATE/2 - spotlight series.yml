@@ -1,4 +1,4 @@
-name: New spotlight series request
+name: Customer spotlight story request
 description: Request spotlight series blog.
 labels: ["Type: Spotlight"]
 #title: ""
@@ -8,24 +8,26 @@ body:
   - type: markdown
     attributes:
       value: |
-        Open the [customer spotlight suggestion form](https://survey123.arcgis.com/share/27f30e12a0d34dce89b6453cd67c2e21) in a new tab, and complete the form. Once it's been submitted, click <b>Submit new issue</b>.
+        Open the [customer spotlight suggestion form](https://survey123.arcgis.com/share/27f30e12a0d34dce89b6453cd67c2e21) in a new tab, complete it, and click <b>Submit</b>. Then, return to this form and click <b>Submit new issue</b>.
   - type: checkboxes
     id: topics
     attributes:
       label: Spotlight series process
-      description: Below is the spotlight series workflow, as each step is complete it will be checked off from the list below.
+      description: As each workflow step is completed, it will be checked off in the following checklist. Solutioneer (submitter) responsibilities are marked with an asterisk.
       options:
-      - label: Form recieved
+      - label: Form received
       - label: Account manager contacted
-      - label: Solutioneer contact customer
+      - label: * Customer contacted by Solutioneer
+      - label: Legal forms sent to customer
       - label: Legal forms completed and signed by customer
-      - label: Interview questions written and sent to customer
+      - label: Interview questions sent to customer
+      - label: Interview responses returned by customer
       - label: Request image from CreativeLab
       - label: Blog completed
-      - label: Blog internal review
-      - label: Blog reviewed by Solutioneer
-      - label: Customer reviews and signs off on blog
-      - label: Blog imported into Wordpress
+      - label: Blog reviewed internally
+      - label: * Blog reviewed by SME (Solutioneer or lead)
+      - label: Final draft reviewed and approved by customer
+      - label: Blog imported into WordPress
       - label: Blog published
       - label: Blog socialized to the team and customer
     validations:
