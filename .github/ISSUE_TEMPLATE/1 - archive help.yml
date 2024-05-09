@@ -2,7 +2,7 @@ name: Move solution to archive help
 description: Move an ArcGIS Solution (one or many versions) into Mature Support or Retired Lifecycle.
 labels: ["Type: Doc"]
 #title: ""
-#assignees: ["heat5533"]
+assignees: ["heat5533"]
 #projects: ["WebGIS/216"]
 body:
   - type: markdown
