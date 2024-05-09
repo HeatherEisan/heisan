@@ -17,7 +17,7 @@ body:
       options:
       - label: Form received
       - label: Account manager contacted
-      - label: * Customer contacted by Solutioneer
+      - label: <b>Customer contacted by Solutioneer</b>
       - label: Legal forms sent to customer
       - label: Legal forms completed and signed by customer
       - label: Interview questions sent to customer
@@ -25,7 +25,7 @@ body:
       - label: Request image from CreativeLab
       - label: Blog completed
       - label: Blog reviewed internally
-      - label: * Blog reviewed by SME (Solutioneer or lead)
+      - label: <b>Blog reviewed by SME (Solutioneer or lead)</b>
       - label: Final draft reviewed and approved by customer
       - label: Blog imported into WordPress
       - label: Blog published
