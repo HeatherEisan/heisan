@@ -8,19 +8,19 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this template to request to move a solution into Mature Support or Retired Lifecycle. Please create a separate issue to remove Solution gallery items from the [ArcGIS Solutions app](https://devtopia.esri.com/WebGIS/solution-items).
+        Use this template to request to move a solution into Mature Support or Retired Lifecycle. Create a separate issue to remove Solution gallery items from the [ArcGIS Solutions app](https://devtopia.esri.com/WebGIS/solution-items).
   - type: input
     id: solution-name
     attributes:
       label: Solution name
-      description: Please provide the full solution name.
+      description: Provide the full solution name.
     validations:
       required: true
   - type: input
     id: mature-phase
     attributes:
       label: Mature Phase Lifecycle
-      description: Please provide the release month and year it of the Mature Phase Lifecycle.
+      description: Provide the release month and year it of the Mature Phase Lifecycle.
       placeholder: |
         mm/yyyy - mm/yyyy
     validations:
@@ -29,7 +29,7 @@ body:
     id: retire-phase
     attributes:
       label: Retired Lifecycle
-      description: Please provide the release month and year of the Retired Lifecycle (2 years after Mature Phase).
+      description: Provide the release month and year of the Retired Lifecycle (2 years after Mature Phase).
       placeholder: |
         mm/yyyy
     validations:
@@ -38,14 +38,14 @@ body:
     id: new-solution
     attributes:
       label: Solution replacement name
-      description: Please provide the new solution name that is replacing the capabilities of the mature support or retired solution, if applicable.
+      description: Provide the name of the new solution that is replacing the capabilities of the mature support or retired solution, if applicable.
     validations:
       required: false
   - type: checkboxes
     id: publications
     attributes:
       label: Software product 
-      description: Which software product is the solution moving to a Mature or Retired Phase in?
+      description: From which platform publication should the solution doc be removed from? Check all that apply
       options:
       - label: ArcGIS Online
       - label: ArcGIS Enterprise 10.9.1
