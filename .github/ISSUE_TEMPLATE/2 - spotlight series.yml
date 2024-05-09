@@ -8,16 +8,16 @@ body:
   - type: markdown
     attributes:
       value: |
-        Open the [customer spotlight suggestion form](https://survey123.arcgis.com/share/27f30e12a0d34dce89b6453cd67c2e21) in a new tab, complete it, and click <b>Submit</b>. Then, return to this form and click <b>Submit new issue</b>.
+        Open the [customer spotlight suggestion form](https://survey123.arcgis.com/share/27f30e12a0d34dce89b6453cd67c2e21){target="_blank"} in a new tab, complete it, and click <b>Submit</b>. Then, return to this form and click <b>Submit new issue</b>.
   - type: checkboxes
     id: topics
     attributes:
       label: Spotlight series process
       description: As each workflow step is completed, it will be checked off in the following checklist. Solutioneer (submitter) responsibilities are marked with an asterisk.
-      options:
+      options: |
       - label: Form received
       - label: Account manager contacted
-      - label: <b>Customer contacted by Solutioneer</b>
+      - label: *Customer contacted by Solutioneer
       - label: Legal forms sent to customer
       - label: Legal forms completed and signed by customer
       - label: Interview questions sent to customer
@@ -25,7 +25,7 @@ body:
       - label: Request image from CreativeLab
       - label: Blog completed
       - label: Blog reviewed internally
-      - label: <b>Blog reviewed by SME (Solutioneer or lead)</b>
+      - label: *Blog reviewed by SME (Solutioneer or lead)
       - label: Final draft reviewed and approved by customer
       - label: Blog imported into WordPress
       - label: Blog published
