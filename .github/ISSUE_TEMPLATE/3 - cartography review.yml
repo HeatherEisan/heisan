@@ -1,0 +1,34 @@
+name: Cartography review
+description: Review map 
+labels: ["Type: Upload video"]
+#title: ""
+#assignees: ["jai10618"]
+#projects: ["WebGIS/216"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Add or update an ArcGIS Solutions video on Kaltura
+  - type: input
+    id: solution-name
+    attributes:
+      label: Solution name
+      description: Provide the full solution name.
+    validations:
+      required: true
+  - type: input
+    id: solution-url
+    attributes:
+      label: Solution URL
+      description: Provide the URL to the map you want reviewed.
+    validations:
+      required: true
+  - type: input
+    id: duedate
+    attributes:
+      label: Date needed
+      description: Completion dates cannot be guaranteed, but all effort will be made to accommodate the requested date.
+      placeholder: |
+        dd/mm/yyyy
+    validations:
+      required: true
