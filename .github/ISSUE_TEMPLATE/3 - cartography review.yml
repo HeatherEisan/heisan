@@ -1,6 +1,6 @@
 name: Cartography review
-description: Review map 
-labels: ["Type: Upload video"]
+description: Map review request 
+labels: ["Type: Map Review"]
 #title: ""
 #assignees: ["jai10618"]
 #projects: ["WebGIS/216"]
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Add or update an ArcGIS Solutions video on Kaltura
+        Review and provide feedback on maps. The standard turnaround time is 3-4 buisness days depending on the complexity. 
   - type: input
     id: solution-name
     attributes:
@@ -27,7 +27,7 @@ body:
     id: duedate
     attributes:
       label: Date needed
-      description: Completion dates cannot be guaranteed, but all effort will be made to accommodate the requested date.
+      description: Completion dates cannot be guaranteed, but all effort will be made to accommodate the requested date. 
       placeholder: |
         dd/mm/yyyy
     validations:
