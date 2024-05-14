@@ -1,5 +1,5 @@
-name: Cartography review
-description: Map review request 
+name: Map review
+description: Request a map review
 labels: ["Type: Map Review"]
 #title: ""
 #assignees: ["jai10618"]
