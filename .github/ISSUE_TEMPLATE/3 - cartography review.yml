@@ -20,7 +20,7 @@ body:
     id: solution-url
     attributes:
       label: Solution URL
-      description: Provide the URL or the path to where the ArcGIS Pro project of the map you want reviewed.
+      description: Enter the path of the ArcGIS Pro project containing the map you want reviewed or the URL to a webmap or webmaps.
     validations:
       required: true
   - type: input
