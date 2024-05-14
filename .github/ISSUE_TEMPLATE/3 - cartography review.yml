@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Review and provide feedback on maps. The standard turnaround time is 3-4 buisness days depending on the complexity. 
+        Review and provide feedback on maps. The standard turnaround time for map review and feedback is typically 3-4 business days, but it may vary depending on the complexity of the map and the specific requirements of the project. 
   - type: input
     id: solution-name
     attributes:
@@ -20,7 +20,7 @@ body:
     id: solution-url
     attributes:
       label: Solution URL
-      description: Provide the URL to the map you want reviewed.
+      description: Provide the URL or the path to where the ArcGIS Pro project of the map you want reviewed.
     validations:
       required: true
   - type: input
