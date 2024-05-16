@@ -1,0 +1,48 @@
+name: Design review request
+description: Request a design review.
+labels: ["Type: Design Review"]
+#title: ""
+#assignees: ["jai10618"]
+#projects: ["WebGIS/216"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Review and provide feedback on apps.
+  - type: input
+    id: solution-name
+    attributes:
+      label: Solution name
+      description: Provide the full solution name.
+    validations:
+      required: true
+  - type: input
+    id: duedate
+    attributes:
+      label: Date needed
+      description: Completion dates cannot be guaranteed, but all effort will be made to accommodate the requested date.
+      placeholder: |
+        dd/mm/yyyy
+    validations:
+      required: true
+  - type: input
+    id: organization
+    attributes:
+      label: Demo organization
+      description: Provide the demo org name in the field below, and verify that Jaisha Burr has been added to that org.
+    validations:
+      required: true
+  - type: textarea
+    id: items-review
+    attributes:
+      label: Items for review
+      description: Provide the URL for each item that you would like reviewed.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional information
+      description: Additional information
+    validations:
+      required: true

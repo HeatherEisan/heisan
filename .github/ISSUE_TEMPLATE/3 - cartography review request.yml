@@ -1,0 +1,34 @@
+name: Map review request
+description: Request a map review.
+labels: ["Type: Map Review"]
+#title: ""
+#assignees: ["jai10618"]
+#projects: ["WebGIS/216"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Review and provide feedback on maps.
+  - type: input
+    id: solution-name
+    attributes:
+      label: Solution name
+      description: Provide the full solution name.
+    validations:
+      required: true
+  - type: input
+    id: duedate
+    attributes:
+      label: Date needed
+      description: Completion dates cannot be guaranteed, but all effort will be made to accommodate the requested date.
+      placeholder: |
+        dd/mm/yyyy
+    validations:
+      required: true
+  - type: textarea
+    id: solution-url
+    attributes:
+      label: Solution URL
+      description: Provide the URL for each a map you would like reviewed. If you have a ArcGIS Pro project, provide the path in the textbox below.
+    validations:
+      required: true
