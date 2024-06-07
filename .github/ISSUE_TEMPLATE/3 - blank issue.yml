@@ -7,7 +7,6 @@ assignees: ["jai10618"]
 body:
   - type: markdown
     attributes:
-      value:
   - type: textarea
     id: describe-issue
     attributes:
