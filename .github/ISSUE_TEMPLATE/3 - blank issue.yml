@@ -1,0 +1,18 @@
+name: Blank issue
+description: Report an enhancement, bug, or ask a question.
+#labels:
+#title: ""
+assignees: ["jai10618"]
+#projects: ["WebGIS/216"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report an enhancement, bug, or ask a question.
+  - type: textarea
+    id: describe-issue
+    attributes:
+      label: Describe the issue
+      description: A clear description of the issue (optionally include before/after screenshots/GIFs).
+    validations:
+      required: true
