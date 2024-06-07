@@ -5,12 +5,17 @@ description: Report an enhancement, bug, or ask a question.
 assignees: ["jai10618"]
 #projects: ["WebGIS/216"]
 body:
-  - type: markdown
-    attributes:
   - type: textarea
-    id: describe-issue
+    id: describe-request
     attributes:
-      label: Describe the issue
-      description: A clear description of the issue (optionally include before/after screenshots/GIFs).
+      label: Describe the request
+      description: A clear description about an enhancement, bug, or ask a question.
     validations:
       required: true
+  - type: textarea
+    id: relevant
+    attributes:
+      label: Other relevant info
+      description: Add any other context or screenshots or GIFs.
+    validations:
+      required: false
