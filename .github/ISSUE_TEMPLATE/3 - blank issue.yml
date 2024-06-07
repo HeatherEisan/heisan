@@ -7,8 +7,7 @@ assignees: ["jai10618"]
 body:
   - type: markdown
     attributes:
-      value: |
-        Report an enhancement, bug, or ask a question.
+      value:
   - type: textarea
     id: describe-issue
     attributes:
