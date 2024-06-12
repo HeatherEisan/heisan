@@ -7,7 +7,5 @@ assignees: ["jai10618"]
 body:
   - type: textarea
     id: describe-request
-    attributes:
-      label: Describe the request
     validations:
       required: true
