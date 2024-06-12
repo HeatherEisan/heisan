@@ -8,6 +8,6 @@ body:
   - type: textarea
     id: describe-request
     attributes:
-      label: Describe the request
+      label: 
     validations:
       required: true
