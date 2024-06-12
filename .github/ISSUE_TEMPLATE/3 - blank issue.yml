@@ -9,13 +9,5 @@ body:
     id: describe-request
     attributes:
       label: Describe the request
-      description: A clear description about an enhancement, bug, or ask a question.
     validations:
       required: true
-  - type: textarea
-    id: relevant
-    attributes:
-      label: Other relevant info
-      description: Add any other context or screenshots or GIFs.
-    validations:
-      required: false
