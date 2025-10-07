@@ -9,8 +9,7 @@ body:
     attributes:
       label: 
       value:  
-        Please ensure that you have verified the following items for each solution and then mark the corresponding solution name in the checklist below by COB <insert date>.
-        Validate ArcGIS Online topics are visible in TOC - https://docstg.arcgis.com/en/arcgis-solutions/latest/reference/
+        Please ensure that you have verified the following items for each solution and then mark the corresponding solution name in the checklist below by COB <insert date>. <br>Validate ArcGIS Online topics are visible in TOC - https://docstg.arcgis.com/en/arcgis-solutions/latest/reference/
   - type: textarea
     id: new-solutions
     attributes:
