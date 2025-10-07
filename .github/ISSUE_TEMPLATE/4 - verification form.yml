@@ -7,7 +7,7 @@ labels: ["Type: Doc"]
 body:
   - type: markdown
     attributes:
-      value:  
+      label:  
         Use this template to identify the solutions that need verification in the current release.
         Please ensure that you have verified the following items for each solution and then mark the corresponding solution name in the checklist below by COB .
         Validate ArcGIS Online topics are visible in TOC - 
