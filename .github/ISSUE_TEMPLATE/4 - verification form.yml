@@ -11,6 +11,8 @@ body:
       label: 
       value:  
         Please ensure that you have verified the following items for each solution and then mark the corresponding solution name in the checklist below by COB <insert date>.
+    validations:
+      required: false
   - type: textarea
     id: new-solutions
     attributes:
