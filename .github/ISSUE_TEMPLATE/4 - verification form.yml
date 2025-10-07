@@ -16,9 +16,9 @@ body:
   - type: input
     id: latest-information
     attributes:
-      label: Current release information
+      label: Current website information
       value:  
-        Documentation: Validate ArcGIS Online topics are visible in TOC - https://docstg.arcgis.com/en/arcgis-solutions/latest/reference/
+        Documentation - Validate ArcGIS Online topics are visible in TOC - https://docstg.arcgis.com/en/arcgis-solutions/latest/reference/
     validations:
       required: false      
   - type: textarea
