@@ -14,7 +14,7 @@ body:
     validations:
       required: false
   - type: input
-    id: release-information
+    id: latest-information
     attributes:
       label: Current release information
       value:  
