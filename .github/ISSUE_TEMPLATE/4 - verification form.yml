@@ -6,6 +6,7 @@ labels: ["Type: Doc"]
 #projects: ["WebGIS/216"]
 body:
   - type: input
+    id: release-information
     attributes:
       label: 
       value:  
