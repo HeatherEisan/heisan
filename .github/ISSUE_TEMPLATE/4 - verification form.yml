@@ -20,7 +20,15 @@ body:
       value:  
         Documentation - Validate ArcGIS Online topics are visible in TOC - https://docstg.arcgis.com/en/arcgis-solutions/latest/reference/
     validations:
-      required: false      
+      required: false     
+  - type: input
+    id: enterprise-information
+    attributes:
+      label: Current ArcGIS Enterprise information
+      value:  
+        Documentation - Validate ArcGIS Enterprise topics are visible in TOC - https://docstg.arcgis.com/en/arcgis-solutions/11.5/reference/
+    validations:
+      required: false        
   - type: textarea
     id: new-solutions
     attributes:
