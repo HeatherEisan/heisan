@@ -1,7 +1,7 @@
 name: ArcGIS Online and Enterprise Checklist
 description: Release Verification Checklist for ArcGIS Online and Enterprise.
 labels: ["Type: Doc"]
-#title: ""
+title: "ArcGIS Online and Enterprise [version] [] Checklist [release version]"
 #assignees: ["heat5533"]
 #projects: ["WebGIS/216"]
 body:
@@ -34,7 +34,9 @@ body:
     attributes:
       label: Validate contents on the page 
       value: | 
-        Documentation - Validate all content on page, ArcGIS Enterprise release notes enhancements are present (if applicable), and solution version in app and doc match.        
+        Documentation - Validate all content on page
+        Documentation - Validate ArcGIS Enterprise release notes enhancements are present (if applicable)
+        Documentation - Validate solution version in app and doc match.        
         Solution - Final version deploys correctly
     validations:
       required: false             
