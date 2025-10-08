@@ -1,7 +1,7 @@
 name: ArcGIS Online and Enterprise Checklist
 description: Release Verification Checklist for ArcGIS Online and Enterprise.
 labels: ["Type: Doc"]
-title: "ArcGIS Online and Enterprise [version] [] Checklist [release version]"
+title: "ArcGIS Online and Enterprise [version] [testing tier] Checklist [release version]"
 #assignees: ["heat5533"]
 #projects: ["WebGIS/216"]
 body:
