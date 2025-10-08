@@ -35,6 +35,7 @@ body:
       label: Validate contents on the page 
       value:  
         Documentation - Validate all content on page, ArcGIS Enterprise release notes enhancements are present (if applicable), and solution version in app and doc match.
+        
         Solution - Final version deploys correctly
     validations:
       required: false             
