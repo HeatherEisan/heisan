@@ -32,7 +32,7 @@ body:
   - type: input
     id: validate-information
     attributes:
-      ##label: Validate content
+      label: Validate content
       value: | 
         Documentation - Validate all content on page
         Documentation - Validate ArcGIS Enterprise release notes enhancements are present (if applicable)
