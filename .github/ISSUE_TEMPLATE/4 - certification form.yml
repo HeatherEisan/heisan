@@ -29,14 +29,15 @@ body:
         Documentation - Validate ArcGIS Enterprise topics are visible in TOC - https://docstg.arcgis.com/en/arcgis-solutions/11.5/reference/
     validations:
       required: false    
-  - type: textarea
+  - type: input
     id: validate-information
     attributes:
       label: Validate content
       value: | 
-        Documentation - Validate all content on page
-        Documentation - Validate ArcGIS Enterprise release notes enhancements are present (if applicable)
-        Documentation - Validate solution version in app and doc match.        
+        Documentation: Validate ArcGIS Online topics visible in TOC
+        Documentation: Validate all content on page
+        Documentation: Validate ArcGIS Enterprise release notes enhancements are present (if applicable)
+        Documentation: Validate solution version in app and doc match.        
         Solution - Final version deploys correctly
     validations:
       required: false             
