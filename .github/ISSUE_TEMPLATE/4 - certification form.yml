@@ -29,7 +29,7 @@ body:
         Documentation - Validate ArcGIS Enterprise topics are visible in TOC - https://docstg.arcgis.com/en/arcgis-solutions/11.5/reference/
     validations:
       required: false    
-  - type: input
+  - type: textarea
     id: validate-information
     attributes:
       label: Validate content
