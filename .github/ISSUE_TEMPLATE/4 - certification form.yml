@@ -5,7 +5,7 @@ title: "ArcGIS Online and Enterprise [version] [testing tier] Checklist [release
 #assignees: ["heat5533"]
 #projects: ["WebGIS/216"]
 body:
-  - type: input
+  - type: markdown
     id: release-information
     attributes:
       value:  
