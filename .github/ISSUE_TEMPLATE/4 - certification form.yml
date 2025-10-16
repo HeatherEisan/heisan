@@ -31,14 +31,14 @@ body:
       required: false    
   - type: input
     id: validate-information
-    label: Validate content
     attributes:
+      label: Validate content
       value: | 
         Documentation: Validate ArcGIS Online topics visible in TOC
         Documentation: Validate all content on page
         Documentation: Validate ArcGIS Enterprise release notes enhancements are present (if applicable)
         Documentation: Validate solution version in app and doc match.        
-        Solution - Final version deploys correctly
+        Solution: Final version deploys correctly
     validations:
       required: false             
   - type: textarea
