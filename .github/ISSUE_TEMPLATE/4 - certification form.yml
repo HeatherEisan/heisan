@@ -1,5 +1,5 @@
 name: ArcGIS Online and Enterprise Checklist
-description: Release Verification Checklist for ArcGIS Online and Enterprise. ENABLEMENT TEAM USE ONLY.
+description: Release Verification Checklist for ArcGIS Online and Enterprise. FOR ENABLEMENT TEAM USE ONLY.
 labels: ["Type: Doc"]
 title: "ArcGIS Online and Enterprise [version] [testing tier] Checklist [release version]"
 #assignees: ["heat5533"]
@@ -29,8 +29,9 @@ body:
         Validate ArcGIS Enterprise topics are visible in TOC - https://docstg.arcgis.com/en/arcgis-solutions/11.5/reference/
     validations:
       required: false    
-  - type: markdown
+  - type: input
     id: validate-information
+    label: Validate content
     attributes:
       value: | 
         Documentation: Validate ArcGIS Online topics visible in TOC
